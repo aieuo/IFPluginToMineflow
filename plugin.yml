@@ -1,0 +1,19 @@
+---
+name: MineflowConverter
+main: aieuo\mfconverter\Main
+version: 0.6.0
+api: 3.0.0
+mcpe-protocol:
+  - 389
+  - 390
+  - 407
+load: POSTWORLD
+depend:
+  - Mineflow
+author: aieuo
+commands:
+  mfconvert:
+    description: Mineflowの変換
+    usage: /mfconvert
+    permission: op
+...
